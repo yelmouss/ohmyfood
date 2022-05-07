@@ -1,0 +1,34 @@
+     // /*loading spinner*/
+     .loader {
+         width: 100%;
+         height: 100%;
+         position: fixed;
+         background-color: transparent;
+         left: 0;
+         top: 0;
+         z-index: 10000;
+         animation: spin 3s forwards;
+     }
+     
+     @keyframes spin {
+         100% {
+             opacity: 0;
+             z-index: -10;
+             transform: rotate(360deg);
+         }
+     }
+     
+     .spinner {
+         animation: spin 3s linear forwards;
+         margin: auto;
+         position: absolute;
+         top: 0;
+         left: 0;
+         right: 0;
+         bottom: 0;
+         width: 64px;
+         height: 64px;
+         border: 8px solid;
+         border-color: $Primaire $Secondaire transparent;
+         border-radius: 50%;
+     }
