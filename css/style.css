@@ -389,6 +389,12 @@ h2 {
 .restaurants__card .carte .heart__1:hover {
   animation: heart_empty 1s;
 }
+.restaurants__card .carte .heart__1 {
+  position: relative;
+}
+.restaurants__card .carte .heart__1:active {
+  animation: heart_empty 1s;
+}
 .restaurants__card .carte .heart__2 {
   position: absolute;
   top: 0px;
@@ -396,6 +402,15 @@ h2 {
   color: #FFF;
 }
 .restaurants__card .carte .heart__2:hover {
+  animation: heart_full 1s forwards;
+}
+.restaurants__card .carte .heart__2 {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+  color: #FFF;
+}
+.restaurants__card .carte .heart__2:active {
   animation: heart_full 1s forwards;
 }
 .restaurants .btn-new {

@@ -33,17 +33,17 @@
             <p>Paris, Belleville</p>
         </div>
 
-        <section class="presentation">
+        <div class="presentation">
             <p class="presentation__book">Réservez le menu qui vous convient</p><br>
             <p class="presentation__discover">Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
             <br>
             <a class="presentation__explore" href="#restaurants">Explorer nos restaurants</a>
-        </section>
+        </div>
 
         <h2 class="fonctionnement__title">Fonctionnement</h2>
 
 
-        <section class="fonctionnement">
+        <div class="fonctionnement">
             <div class="fonctionnement__step"><i class="fas fa-tablet-alt"></i>Choisissez un restaurant
                 <div class="fonctionnement__step__no">1</div>
             </div>
@@ -53,36 +53,42 @@
             <div class="fonctionnement__step"><i class="fas fa-store"></i>Dégustez au restaurant
                 <div class="fonctionnement__step__no">3</div>
             </div>
-        </section>
+        </div>
 
 
-        <section class="restaurants" id="restaurants">
+        <div class="restaurants" id="restaurants">
             <div class="restaurants__title">
                 <h2>Restaurants</h2>
             </div>
             <div class="restaurants__container">
-                <a href="./restaurants/la-palette-du-gout.html">
-                    <div class="restaurants__card">
+
+                <div class="restaurants__card">
+                    <a href="./restaurants/la-palette-du-gout.html">
                         <div class="restaurants__card__image">
                             <img src="./img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="La Palette du goût">
                             <div class="btn-new">Nouveau</div>
                         </div>
-                        <div class="carte">
+
+                    </a>
+                    <div class="carte">
+                        <a href="./restaurants/la-palette-du-gout.html">
                             <div class="contenu">
                                 <h3>La Palette du goût</h3>
                                 <p>Ménilmontant</p>
                             </div>
-                            <div class="heart">
-                                <div class="heart__1">
-                                    <i class="far fa-heart fa-2x"></i>
-                                </div>
-                                <div class="heart__2">
-                                    <i class="fas fa-heart fa-2x"></i>
-                                </div>
+                        </a>
+
+                        <div class="heart">
+                            <div class="heart__1">
+                                <i class="far fa-heart fa-2x"></i>
+                            </div>
+                            <div class="heart__2">
+                                <i class="fas fa-heart fa-2x"></i>
                             </div>
                         </div>
                     </div>
-                </a>
+                </div>
+
                 <a href="./restaurants/la-note-enchantee.html">
                     <div class="restaurants__card">
                         <div class="restaurants__card__image">
@@ -148,9 +154,7 @@
                     </div>
                 </a>
             </div>
-        </section>
-
-
+        </div>
     </main>
 
     <!-- Footer -->

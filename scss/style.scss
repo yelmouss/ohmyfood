@@ -270,12 +270,27 @@ h2 {
                         animation: heart_empty 1s;
                     }
                 }
+                &__1 {
+                    position: relative;
+                    &:active {
+                        animation: heart_empty 1s;
+                    }
+                }
                 &__2 {
                     position: absolute;
                     top: 0px;
                     opacity: 0;
                     color: #FFF;
                     &:hover {
+                        animation: heart_full 1s forwards;
+                    }
+                }
+                &__2 {
+                    position: absolute;
+                    top: 0px;
+                    opacity: 0;
+                    color: #FFF;
+                    &:active {
                         animation: heart_full 1s forwards;
                     }
                 }
