@@ -14,10 +14,9 @@ a {
     color: black;
 }
 
-.container {
-    max-width: 3840px;
-}
-
+// .container {
+//     max-width: 100%
+// }
 h1 {
     font-family: 'Shrikhand', cursive;
 }
@@ -31,8 +30,14 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
-body {
-    box-sizing: border-box;
+html,
+html body,
+body .container,
+body .container-all {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    overflow-x: hidden;
 }
 
 
