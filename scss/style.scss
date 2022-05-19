@@ -1,5 +1,9 @@
 /*Paramètres*/
 
+* {
+    -webkit-font-smoothing: antialiased;
+}
+
 //import du reset
 @import "libs/reset.scss";
 // La charte de couleurs
