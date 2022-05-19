@@ -611,6 +611,7 @@ h2 {
 .header_menu h3 {
   text-overflow: ellipsis;
   white-space: nowrap;
+  font-weight: bold;
 }
 .header_menu h4 {
   font-weight: normal;
