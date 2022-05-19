@@ -337,6 +337,7 @@ h2 {
   object-fit: cover;
 }
 .restaurants__card .carte {
+  width: 95%;
   padding: 19px 11px;
   position: relative;
   display: flex;
