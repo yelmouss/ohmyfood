@@ -14,9 +14,6 @@ a {
     color: black;
 }
 
-// .container {
-//     max-width: 100%
-// }
 h1 {
     font-family: 'Shrikhand', cursive;
 }
@@ -454,10 +451,6 @@ h2 {
             transform: rotate(360deg);
         }
     }
-    // @media screen and (min-width: 375px) {
-    //     min-width: 250px;
-    //     width: 100%;
-    // }
 }
 
 .card__global__contenu__dish__confirmation {
@@ -479,8 +472,7 @@ h2 {
     align-items: center;
     align-self: center;
     align-content: center;
-    transform: rotate(360deg);
-    transition: transform 0.5s;
+    transition: transform 1s;
     .fas {
         margin-left: 4px;
     }
