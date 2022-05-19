@@ -348,6 +348,9 @@ h2 {
 .restaurants__card .carte .contenu {
   position: relative;
 }
+.restaurants__card .carte .contenu h3 {
+  font-weight: bold;
+}
 @keyframes heart_full {
   0% {
     opacity: 0;

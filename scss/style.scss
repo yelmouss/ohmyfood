@@ -229,6 +229,9 @@ h2 {
             }
             .contenu {
                 position: relative;
+                h3 {
+                    font-weight: bold;
+                }
             }
             @keyframes heart_full {
                 0% {
