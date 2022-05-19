@@ -154,7 +154,7 @@ h1 {
         font-weight: bold;
         background-color: #F6F6F6;
         padding: 30px 50px 30px 18px;
-        // margin-left: 20px;
+        padding: 1em;
         text-align: center;
         border-radius: 20px;
         position: relative;
@@ -170,7 +170,6 @@ h1 {
         &__no {
             width: 18px;
             height: 18px;
-            padding: 2ù;
             border-radius: 50%;
             background-color: $Primaire;
             color: #FFF;
@@ -263,7 +262,6 @@ h2 {
             .heart {
                 position: absolute;
                 right: 20px;
-                top: 1;
                 &__1 {
                     position: relative;
                     &:hover {

@@ -270,6 +270,7 @@ h1 {
   font-weight: bold;
   background-color: #F6F6F6;
   padding: 30px 50px 30px 18px;
+  padding: 1em;
   text-align: center;
   border-radius: 20px;
   position: relative;
@@ -286,7 +287,6 @@ h1 {
 .fonctionnement__step__no {
   width: 18px;
   height: 18px;
-  padding: 2ù;
   border-radius: 50%;
   background-color: #9356DC;
   color: #FFF;
@@ -381,7 +381,6 @@ h2 {
 .restaurants__card .carte .heart {
   position: absolute;
   right: 20px;
-  top: 1;
 }
 .restaurants__card .carte .heart__1 {
   position: relative;
