@@ -448,7 +448,7 @@ h2 {
 }
 
 .entrees {
-  margin-bottom: 27px;
+  margin-top: 3.5em;
 }
 .entrees h2::after {
   content: "";
