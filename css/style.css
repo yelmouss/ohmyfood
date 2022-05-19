@@ -344,12 +344,10 @@ h2 {
 .restaurants__card .carte h3 {
   margin-bottom: 6px;
   font-weight: bold;
+  font-size: large;
 }
 .restaurants__card .carte .contenu {
   position: relative;
-}
-.restaurants__card .carte .contenu h3 {
-  font-weight: bold;
 }
 @keyframes heart_full {
   0% {
