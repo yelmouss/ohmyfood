@@ -642,4 +642,16 @@ h2 {
   box-shadow: 1rem 1rem 20px rgba(0, 0, 0, 0.25);
 }
 
+.img-OhMyFood {
+  position: absolute;
+  padding-bottom: 3%;
+  padding-top: 1.5%;
+}
+
+.btn-return {
+  padding: 10%;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
