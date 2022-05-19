@@ -609,9 +609,9 @@ h2 {
   text-overflow: ellipsis;
 }
 .header_menu h3 {
+  font-weight: bold;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-weight: bold;
 }
 .header_menu h4 {
   font-weight: normal;
