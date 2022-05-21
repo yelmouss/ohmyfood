@@ -613,13 +613,18 @@ h2 {
 
 .card__price {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  align-self: flex-end;
+  justify-content: center;
+  align-items: center;
+  align-self: auto;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   margin-right: 20px;
   width: 25%;
+}
+@media (min-width: 641px) {
+  .card__price {
+    margin-right: 5px;
+  }
 }
 
 .header_menu {
@@ -638,6 +643,7 @@ h2 {
   font-weight: normal;
   text-overflow: ellipsis;
   white-space: nowrap;
+  display: block;
 }
 
 /*Bouton Commander*/
@@ -675,6 +681,13 @@ h2 {
   padding: 10%;
   font-weight: bold;
   font-size: 20px;
+}
+
+#heart:hover {
+  opacity: 1;
+  background-image: linear-gradient(100deg, #9356DC, #FF79DA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #FF79DA;
 }
 
 /*# sourceMappingURL=style.css.map */
